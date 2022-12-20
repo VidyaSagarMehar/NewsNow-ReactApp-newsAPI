@@ -1,0 +1,46 @@
+{
+	"status": "ok",
+	"totalResults": 4,
+	"articles": [
+		{
+			"source": { "id": "fox-sports", "name": "Fox Sports" },
+			"author": null,
+			"title": "Croatia vs. Brazil live updates: Quarterfinal matchup locked in scoreless draw - FOX Sports",
+			"description": "The 2022 FIFA World Cup continues Friday on FOX with Croatia taking on Brazil in the quarterfinals. Here are the top plays!",
+			"url": "https://www.foxsports.com/stories/soccer/world-cup-2022-top-plays-croatia-brazil-quarterfinals",
+			"urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2022/12/1408/814/12.08.22_WCTopPlays_CROBRA_Horizontal.jpg?ve=1&tl=1",
+			"publishedAt": "2022-12-09T14:58:30Z",
+			"content": "After a two-day break, the 2022 FIFA World Cup\r\n continues Friday live on FOX with Croatia taking on Brazil at Education City Stadium in Al Rayyan, Qatar in the tournament's first quarterfinals match… [+2949 chars]"
+		},
+		{
+			"source": { "id": null, "name": "Sports Illustrated" },
+			"author": "Conor Orr",
+			"title": "How Brock Purdy Was Rebuilt - Sports Illustrated",
+			"description": "The 49ers’ new starting QB was considered undraftable when his college career ended. Then he relearned how to throw and reinvented himself in ways no one had considered.",
+			"url": "https://www.si.com/nfl/2022/12/09/how-brock-purdy-was-built-from-undraftable-to-49ers-starter-daily-cover",
+			"urlToImage": "https://www.si.com/.image/t_share/MTk0MzIxOTg1MTM0NjY3MjY5/dcovbrockpurdylo3.jpg",
+			"publishedAt": "2022-12-09T14:04:58Z",
+			"content": "Brock Purdy came out of Iowa State built a little bit too much like a fullback. He has humongous quadricep muscles, which, as a thrower, placed him on his toes more frequently and forced him to draw … [+11437 chars]"
+		},
+		{
+			"source": { "id": null, "name": "CBS Sports" },
+			"author": "",
+			"title": "Baker Mayfield throws game-winning touchdown during Rams debut vs. Raiders on 'Thursday Night Football' - CBS Sports",
+			"description": "The Baker era has begun in L.A.",
+			"url": "https://www.cbssports.com/nfl/news/baker-mayfield-throws-game-winning-touchdown-during-rams-debut-vs-raiders-on-thursday-night-football/",
+			"urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/12/09/bdd5afed-89af-4e73-aec9-7927d3dec606/thumbnail/1200x675/2efdddfd3f16d6c0826a8de71f2e0a23/bakergetty.jpg",
+			"publishedAt": "2022-12-09T13:16:00Z",
+			"content": "Baker Mayfield had an inkling that the Rams would request his services after he was released by Carolina earlier this week. Mayfield was so certain that Los Angeles would sign him that he actually bo… [+4087 chars]"
+		},
+		{
+			"source": { "id": null, "name": "Yahoo Entertainment" },
+			"author": "Charles Robinson",
+			"title": "If the Commanders leaked Jon Gruden’s emails, then Dan Snyder’s vengeance ended his NFL ownership - Yahoo Sports",
+			"description": "Thursday's report includes an accusation that the Commanders were involved in leaking infamous Jon Gruden emails. If true, it could have potentially massive ...",
+			"url": "https://sports.yahoo.com/if-the-commanders-leaked-jon-grudens-emails-then-dan-snyders-vengeance-ended-his-nfl-ownership-035029135.html",
+			"urlToImage": "https://s.yimg.com/ny/api/res/1.2/_9v1LHTBAzmZ8B2VwzwFWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NzY-/https://s.yimg.com/os/creatr-uploaded-images/2022-12/d496e480-776e-11ed-bbfe-915e4b5e6419",
+			"publishedAt": "2022-12-09T03:50:00Z",
+			"content": "Back in October 2021, when the world was digesting the emails of former Las Vegas Raiders head coach Jon Gruden and getting intimately acquainted with the opinions he shared when most people werent l… [+7621 chars]"
+		}
+	]
+}
