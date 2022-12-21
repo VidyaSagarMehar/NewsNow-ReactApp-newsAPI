@@ -52,6 +52,8 @@ export class News extends Component {
 	}
 
 	handlePrevClick = async () => {
+		this.setState({ page: this.state.page - 1 });
+		this.updateNews();
 		// let url = `https://newsapi.org/v2/top-headlines?country=${
 		// 	this.props.country
 		// }&category=${
@@ -70,9 +72,11 @@ export class News extends Component {
 		// 	articles: parseData.articles,
 		// 	loading: false,
 		// });
-		this.updateNews();
 	};
 	handleNextClick = async () => {
+		this.updateNews();
+		this.setState({ page: this.state.page + 1 });
+
 		// if (
 		// 	!(
 		// 		this.state.page + 1 >
@@ -96,7 +100,6 @@ export class News extends Component {
 		// 		loading: false,
 		// 	});
 		// }
-		this.updateNews();
 	};
 
 	render() {
