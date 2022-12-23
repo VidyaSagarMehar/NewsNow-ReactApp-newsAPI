@@ -10,8 +10,6 @@ const News = (props) => {
 	const [page, setPage] = useState(1);
 	const [totalResults, setTotalResults] = useState(0);
 
-	// document.title = `${props.category} - News Now`;
-
 	const updateNews = async () => {
 		props.setProgress(0);
 		const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pagesize=${props.pageSize}`;
@@ -28,21 +26,18 @@ const News = (props) => {
 	};
 
 	useEffect(() => {
+		document.title = `${props.category} - News Now`;
 		updateNews();
+		// eslint-disable-next-line
 	}, []);
 
-	const handlePrevClick = async () => {
-		setPage(page - 1);
-		updateNews();
-	};
-	const handleNextClick = async () => {
-		setPage(page + 1);
-		updateNews();
-	};
 	const fetchMoreData = async () => {
+		const url = `https://newsapi.org/v2/top-headlines?country=${
+			props.country
+		}&category=${props.category}&apiKey=${props.apiKey}&page=${
+			page + 1
+		}&pagesize=${props.pageSize}`;
 		setPage(page + 1);
-		const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pagesize=${props.pageSize}`;
-
 		let data = await fetch(url);
 		let parseData = await data.json();
 		setArticles(articles.concat(parseData.articles));
@@ -51,7 +46,9 @@ const News = (props) => {
 
 	return (
 		<div className="container my-4">
-			<h2>Top Headlines - {props.category}</h2>
+			<h2 style={{ marginTop: '85px', marginBottom: '20px' }}>
+				Top Headlines - {props.category}
+			</h2>
 			{loading && <Spinner />}
 			<InfiniteScroll
 				dataLength={articles.length}
